@@ -66,16 +66,8 @@ function kalkulerValuta(){
     Så hvis brukeren har valgt Dollar i den andre DropDown Menyen, så vil variabelen secondCurrency være "usd".
     */
 
-    if(firstCurrency == "nok"){
-        result = (input * firstCurrencyMap.get(secondCurrency));        
-    }
-    else if(firstCurrency == "usd"){
-        result = (input * firstCurrencyMap.get(secondCurrency));
-    }
-    else if(firstCurrency == "euro"){
-        result = (input * firstCurrencyMap.get(secondCurrency));
-    }
-
+    
+    result = (input * firstCurrencyMap.get(secondCurrency));
     // Se på slutten av linjen under. For å få usd til å bli USD, så brukte jeg toUpperCase() :)
-    document.getElementById("resultat").innerHTML = input + " " + firstCurrency + " til " + secondCurrency + ": " + result + firstCurrency.toUpperCase();
+    document.getElementById("resultat").innerHTML = input + " " + firstCurrency + " til " + secondCurrency + ": " + result + secondCurrency.toUpperCase();
 }
