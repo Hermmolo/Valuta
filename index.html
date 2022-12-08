@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valuta Kalkulator</title>
+    </head>
+    <body>
+        <main id="main">
+            <form name="kalkulator">
+                <input type="text" id="input">
+                <label for="valuta1">Valuta 1: </label>
+                <select name="Valuta1" id="valuta1">
+                    <option value="nok">Norske Kroner</option>
+                    <option value="usd">Amerikansk USD</option>
+                    <option value="euro">Europeisk Euro</option>
+                </select>
+                <label for="valuta2">Valuta 2: </label>
+                <select name="Valuta2" id="valuta2">
+                    <option value="nok">Norske Kroner</option>
+                    <option value="usd">Amerikansk USD</option>
+                    <option value="euro">Europeisk Euro</option>
+                </select>
+                <button type="button" onclick="kalkulerValuta()">Kalkuler</button>
+            </form>
+            <p id="resultat">Resultat: </p>
+        </main>
+    </body>
+    <script src="js/script.js"></script>
+</html>
