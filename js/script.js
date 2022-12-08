@@ -10,7 +10,7 @@ function kalkulerValuta(){
     let firstCurrencyMap;
     let result;
 
-    ///////////////////////////////////////////////////////// ARRAYS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ///////////////////////////////////////////////////////// ARRAYS/MAPS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     // Her har vi ett "Map" som definerer hvor mye vi skal "gange med" når man konverterer NOK til andre valutaer. 
     let nok = new Map([
         ["usd", 0.1],
